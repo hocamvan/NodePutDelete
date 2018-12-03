@@ -1,0 +1,4 @@
+extends layout
+block update
+        form(method='POST', action='/users/' + prenom + '?_method=PUT')
+            button(type='submit') Modifier
